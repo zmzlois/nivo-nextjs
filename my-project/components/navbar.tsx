@@ -5,7 +5,7 @@ function Navbar({ page }: any) {
   const currentPage: string = page
   const [currentPosition, setCurrentPosition] = React.useState(currentPage)
   return (
-    <div className="flex pt-4 pb-10 justify-between">
+    <div className="flex pt-4 pb-10 justify-between sm:flex-row flex-col">
       <Link
         href="/"
         className="flex font-bold text-4xl scale-100 hover:scale-110 ease-in duration-100"
