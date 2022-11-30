@@ -1,0 +1,79 @@
+[
+  {
+    "monat": "Jan",
+    "Lebensmittel": 7,
+    "LebensmittelColor": "hsl(187, 70%, 50%)",
+    "Miete": 472,
+    "MieteColor": "hsl(290, 70%, 50%)",
+    "Hobbies": 39,
+    "HobbiesColor": "hsl(340, 70%, 50%)",
+    "Freizeit": 60,
+    "FreizeitColor": "hsl(32, 70%, 50%)"
+  },
+  {
+    "monat": "Feb",
+    "Lebensmittel": 112,
+    "LebensmittelColor": "hsl(20, 70%, 50%)",
+    "Miete": 472,
+    "MieteColor": "hsl(357, 70%, 50%)",
+    "Hobbies": 36,
+    "HobbiesColor": "hsl(75, 70%, 50%)",
+    "Freizeit": 106,
+    "FreizeitColor": "hsl(321, 70%, 50%)"
+  },
+  {
+    "monat": "Mar",
+    "Lebensmittel": 148,
+    "LebensmittelColor": "hsl(87, 70%, 50%)",
+    "Miete": 472,
+    "MieteColor": "hsl(265, 70%, 50%)",
+    "Hobbies": 198,
+    "HobbiesColor": "hsl(329, 70%, 50%)",
+    "Freizeit": 180,
+    "FreizeitColor": "hsl(295, 70%, 50%)"
+  },
+  {
+    "monat": "Apr",
+    "Lebensmittel": 0,
+    "LebensmittelColor": "hsl(170, 70%, 50%)",
+    "Miete": 472,
+    "MieteColor": "hsl(219, 70%, 50%)",
+    "Hobbies": 164,
+    "HobbiesColor": "hsl(333, 70%, 50%)",
+    "Freizeit": 171,
+    "FreizeitColor": "hsl(37, 70%, 50%)"
+  },
+  {
+    "monat": "Mai",
+    "Lebensmittel": 137,
+    "LebensmittelColor": "hsl(329, 70%, 50%)",
+    "Miete": 472,
+    "MieteColor": "hsl(230, 70%, 50%)",
+    "Hobbies": 187,
+    "HobbiesColor": "hsl(213, 70%, 50%)",
+    "Freizeit": 118,
+    "FreizeitColor": "hsl(264, 70%, 50%)"
+  },
+  {
+    "monat": "Jun",
+    "Lebensmittel": 26,
+    "LebensmittelColor": "hsl(105, 70%, 50%)",
+    "Miete": 472,
+    "MieteColor": "hsl(285, 70%, 50%)",
+    "Hobbies": 64,
+    "HobbiesColor": "hsl(326, 70%, 50%)",
+    "Freizeit": 137,
+    "FreizeitColor": "hsl(138, 70%, 50%)"
+  },
+  {
+    "monat": "Jul",
+    "Lebensmittel": 85,
+    "LebensmittelColor": "hsl(204, 70%, 50%)",
+    "Miete": 472,
+    "MieteColor": "hsl(142, 70%, 50%)",
+    "Hobbies": 12,
+    "HobbiesColor": "hsl(24, 70%, 50%)",
+    "Freizeit": 134,
+    "FreizeitColor": "hsl(289, 70%, 50%)"
+  }
+]

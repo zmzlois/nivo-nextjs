@@ -11,8 +11,8 @@ import { ResponsiveBar } from '@nivo/bar'
 const MyResponsiveBar = ({ data }: any) => (
   <ResponsiveBar
     data={data}
-    keys={['hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut']}
-    indexBy="country"
+    keys={['Lebensmittel', 'Miete', 'Hobbies', 'Freizeit']}
+    indexBy="monat"
     margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
     padding={0.3}
     valueScale={{ type: 'linear' }}

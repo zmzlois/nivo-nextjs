@@ -1,0 +1,32 @@
+[
+  {
+    "id": "make",
+    "label": "make",
+    "value": 85,
+    "color": "hsl(47, 70%, 50%)"
+  },
+  {
+    "id": "rust",
+    "label": "rust",
+    "value": 284,
+    "color": "hsl(59, 70%, 50%)"
+  },
+  {
+    "id": "javascript",
+    "label": "javascript",
+    "value": 233,
+    "color": "hsl(212, 70%, 50%)"
+  },
+  {
+    "id": "elixir",
+    "label": "elixir",
+    "value": 183,
+    "color": "hsl(225, 70%, 50%)"
+  },
+  {
+    "id": "scala",
+    "label": "scala",
+    "value": 104,
+    "color": "hsl(208, 70%, 50%)"
+  }
+]
