@@ -127,3 +127,10 @@
     filter: invert(1);
   }
 }
+
+.smallchart {
+  min-width: 300px;
+  min-height: 300px;
+  height: 30vh;
+  width: 40vw;
+}
