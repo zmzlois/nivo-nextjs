@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import homeStyles from '../styles/Home.module.css'
 
 function Navbar({ page }: any) {
   const currentPage: string = page
@@ -12,15 +13,18 @@ function Navbar({ page }: any) {
       >
         Haushaltsbuch
       </Link>
-      <div className='flex'>
-        <div className="flex gap-2 mt-3 border-2 p-2 pr-3 rounded-lg shadow-lg">
+      <div className="flex">
+        <div className="flex gap-4 border-2 border-gray-300 p-2 pr-3 rounded-lg shadow-lg">
           <Link
             href="/dashboard"
             className={
-              'hover:font-bold' +
-              (currentPosition === 'dashboard'
-                ? ' font-bold border-b-2 border-black'
-                : '')
+              '' +
+              (currentPosition === 'dashboard' ? ' font-bold  ' : ' ') +
+              homeStyles.link +
+              ' ' +
+              homeStyles.linkUnderline +
+              ' ' +
+              homeStyles.linkUnderlineBlack
             }
             onClick={() => setCurrentPosition('dashboard')}
           >
@@ -33,7 +37,12 @@ function Navbar({ page }: any) {
               'hover:font-bold' +
               (currentPosition === 'about'
                 ? ' font-bold border-b-2 border-black'
-                : '')
+                : '') +
+              homeStyles.link +
+              ' ' +
+              homeStyles.linkUnderline +
+              ' ' +
+              homeStyles.linkUnderlineBlack
             }
             onClick={() => setCurrentPosition('about')}
           >
@@ -46,7 +55,12 @@ function Navbar({ page }: any) {
               'hover:font-bold' +
               (currentPosition === 'login'
                 ? ' font-bold border-b-2 border-black'
-                : '')
+                : '') +
+              homeStyles.link +
+              ' ' +
+              homeStyles.linkUnderline +
+              ' ' +
+              homeStyles.linkUnderlineBlack
             }
             onClick={() => setCurrentPosition('login')}
           >
