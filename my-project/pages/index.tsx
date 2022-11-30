@@ -11,7 +11,7 @@ export default function Index() {
       <Layout>
         <Navbar page="index" />
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-12">
-          <div className="flex border-2 rounded-lg border-gray-300 flex-wrap md:justify-between justify-center scale-100 hover:scale-110 ease-in duration-100">
+          <div className="flex border-2 rounded-lg border-gray-300 flex-wrap md:justify-between justify-center scale-100 hover:scale-110 ease-in duration-100 shadow-lg">
             <NivoBar />
             <div className="flex flex-col sm:w-[20vw] lg:w-[40vw]">
               <h1 className="flex text-2xl font-bold pt-4 px-6">Was?</h1>
@@ -21,7 +21,7 @@ export default function Index() {
               </p>
             </div>
           </div>
-          <div className="flex border-2 rounded-lg border-gray-300 flex-wrap md:justify-between justify-center scale-100 hover:scale-110 ease-in duration-100">
+          <div className="flex border-2 rounded-lg border-gray-300 flex-wrap md:justify-between justify-center scale-100 hover:scale-110 ease-in duration-100 shadow-lg">
             <NivoBar />
             <div className="flex flex-col sm:w-[20vw] lg:w-[40vw]">
               <h1 className="flex text-2xl font-bold pt-4 px-6">Was?</h1>
