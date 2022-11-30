@@ -12,8 +12,8 @@ function Navbar({ page }: any) {
       >
         Haushaltsbuch
       </Link>
-      <div>
-        <div className="flex gap-2 mt-3">
+      <div className='flex'>
+        <div className="flex gap-2 mt-3 border-2 p-2 pr-3 rounded-lg shadow-lg">
           <Link
             href="/dashboard"
             className={
